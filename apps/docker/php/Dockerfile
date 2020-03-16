@@ -23,16 +23,3 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
 
 
 WORKDIR /usr/src/app
-
-COPY phpUnitTest /usr/src/app
-
-USER root
-RUN usermod -u 1000 www-data    # fix the UID
-RUN mkdir -p var/cache/prod var/cache/dev var/cache/test var/log/dev \  && touch var/log/dev/dev.log \
-   && chown -R www-data:www-data var/ \
-   && chown -R www-data:www-data var/log/ \
-   && chown -R www-data:www-data vendor/ \
-   && chmod -R 777 var/ \
-   && chmod -R 777 var/log \
-   && chmod -R 777 vendor/ 
-RUN PATH=$PATH:/usr/src/apps/vendor/bin:bin
