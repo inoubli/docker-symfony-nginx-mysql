@@ -1384,3 +1384,7 @@
 [2020-03-15 23:12:47] request.INFO: Matched route "commande_list". {"route":"commande_list","route_parameters":{"_route":"commande_list","_controller":"App\\Controller\\ApiCommandeController::index"},"request_uri":"http://localhost/api/commande/list","method":"GET"} []
 [2020-03-15 23:12:49] doctrine.DEBUG: SELECT t0.id AS id_1, t0.ref AS ref_2, t0.date AS date_3 FROM commande t0 [] []
 [2020-03-15 23:12:49] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
+[2020-03-17 21:28:02] php.INFO: User Deprecated: Using the WebserverBundle is deprecated since Symfony 4.4. The new Symfony local server has more features, you can use it instead. {"exception":"[object] (ErrorException(code: 0): User Deprecated: Using the WebserverBundle is deprecated since Symfony 4.4. The new Symfony local server has more features, you can use it instead. at /usr/src/app/vendor/symfony/web-server-bundle/WebServerBundle.php:23)"} []
+[2020-03-17 21:28:02] request.INFO: Matched route "commande_list". {"route":"commande_list","route_parameters":{"_route":"commande_list","_controller":"App\\Controller\\ApiCommandeController::index"},"request_uri":"http://localhost/api/commande/list","method":"GET"} []
+[2020-03-17 21:28:03] doctrine.DEBUG: SELECT t0.id AS id_1, t0.ref AS ref_2, t0.date AS date_3 FROM commande t0 [] []
+[2020-03-17 21:28:03] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
