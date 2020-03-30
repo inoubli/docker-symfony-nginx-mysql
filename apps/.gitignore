@@ -1,22 +1,22 @@
 
 ###> symfony/framework-bundle ###
-/phpUnitTest/.gitignore
-/phpUnitTest/.env.local
-/phpUnitTest/.env.local.php
-/phpUnitTest/.env.*.local
-/phpUnitTest/config/secrets/prod/prod.decrypt.private.php
-/phpUnitTest/public/bundles/
-/phpUnitTest/var/*
-/phpUnitTest/vendor/
+apps/phpUnitTest/.gitignore
+apps/phpUnitTest/.env.local
+apps/phpUnitTest/.env.local.php
+apps/phpUnitTest/.env.*.local
+apps/phpUnitTest/config/secrets/prod/prod.decrypt.private.php
+apps/phpUnitTest/public/bundles/
+apps/phpUnitTest/var/*
+apps/phpUnitTest/vendor/
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###
-/phpUnitTest/.phpunit
-/phpUnitTest/.phpunit.result.cache
-/phpUnitTest/phpunit.xml
+apps/phpUnitTest/.phpunit
+apps/phpUnitTest/.phpunit.result.cache
+apps/phpUnitTest/phpunit.xml
 ###< symfony/phpunit-bridge ###
 
 ###> symfony/web-server-bundle ###
-/phpUnitTest/.web-server-pid
+apps/phpUnitTest/.web-server-pid
 ###< symfony/web-server-bundle ###
-/phpUnitTest/debug.log
+apps/phpUnitTest/debug.log
